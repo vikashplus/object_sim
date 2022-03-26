@@ -9,8 +9,5 @@
     <asset>
         <mesh name="mouse" file="../grab_sim/mouse/mouse.stl"/>
         <mesh name="contact0" file="../grab_sim/mouse/contact0.stl"/>
-        <mesh name="contact1" file="../grab_sim/mouse/contact1.stl"/>
-        <mesh name="contact2" file="../grab_sim/mouse/contact2.stl"/>
-        <mesh name="contact3" file="../grab_sim/mouse/contact3.stl"/>
     </asset>
 </mujocoinclude>
