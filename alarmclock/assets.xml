@@ -10,8 +10,6 @@
     <asset>
         <mesh name="alarmclock" file="../object_sim/alarmclock/alarmclock.stl"/>
         <mesh name="contact0" file="../object_sim/alarmclock/contact0.stl"/>
-        <mesh name="contact1" file="../object_sim/alarmclock/contact1.stl"/>
-        <mesh name="contact2" file="../object_sim/alarmclock/contact2.stl"/>
     </asset>
 
 </mujocoinclude>

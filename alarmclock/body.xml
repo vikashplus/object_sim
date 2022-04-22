@@ -8,8 +8,6 @@
 ====================================================== -©vk©-->
 
     <geom name="alarmclock_visual" mesh="alarmclock" rgba="1 0.4 0.43 1" />
-    <geom name="alarmclock_contact0" mesh="contact0" class="grab_col"/>
-    <geom name="alarmclock_contact1" mesh="contact1" class="grab_col"/>
-    <geom name="alarmclock_contact2" mesh="contact2" class="grab_col"/>
+    <geom name="alarmclock_contact0" mesh="contact0" class="object_col"/>
 
 </mujocoinclude>
