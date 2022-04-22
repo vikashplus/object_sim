@@ -8,9 +8,9 @@
 ====================================================== -©vk©-->
 
     <asset>
-        <mesh name="duck" file="../grab_sim/duck/duck.stl"/>
-        <mesh name="contact0" file="../grab_sim/duck/contact0.stl"/>
-        <mesh name="contact1" file="../grab_sim/duck/contact1.stl"/>
-        <mesh name="contact2" file="../grab_sim/duck/contact2.stl"/>
+        <mesh name="duck" file="../object_sim/duck/duck.stl"/>
+        <mesh name="contact0" file="../object_sim/duck/contact0.stl"/>
+        <mesh name="contact1" file="../object_sim/duck/contact1.stl"/>
+        <mesh name="contact2" file="../object_sim/duck/contact2.stl"/>
     </asset>
 </mujocoinclude>
