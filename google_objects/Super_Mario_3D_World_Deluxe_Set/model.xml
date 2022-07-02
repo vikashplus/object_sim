@@ -1,0 +1,18 @@
+<mujoco model="model">
+  <asset>
+    <texture type="2d" name="texture" file="texture.png"/>
+    <material name="material_0" texture="texture" specular="0.19778400000000004" shininess="0.000248761"/>
+    <mesh name="model_0" file="model_0.obj"/>
+    <mesh name="model_collision_0" file="model_collision_0.obj"/>
+    <mesh name="model_collision_1" file="model_collision_1.obj"/>
+    <mesh name="model_collision_2" file="model_collision_2.obj"/>
+  </asset>
+  <worldbody>
+    <body name="model">
+      <geom material="material_0" mesh="model_0" type="mesh" contype="0" conaffinity="0" group="2"/>
+      <geom mesh="model_collision_0" rgba="0.08730148686581662 0.5838080858689522 0.3977514924534775 1" type="mesh" group="3"/>
+      <geom mesh="model_collision_1" rgba="0.9146608574423902 0.614481186859825 0.5225245593286709 1" type="mesh" group="3"/>
+      <geom mesh="model_collision_2" rgba="0.9381692434139915 0.2856802432583526 0.8485933962250535 1" type="mesh" group="3"/>
+    </body>
+  </worldbody>
+</mujoco>
