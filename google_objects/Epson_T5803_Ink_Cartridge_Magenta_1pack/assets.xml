@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<mujocoinclude>
+    <asset>
+        <texture type="2d" name="texture" file="../object_sim/google_objects/Epson_T5803_Ink_Cartridge_Magenta_1pack/texture.png"/>
+        <material name="material_0" texture="texture" specular="0.5" shininess="0.5"/>
+        <mesh name="model_0" file="../object_sim/google_objects/Epson_T5803_Ink_Cartridge_Magenta_1pack/model_0.obj"/>
+        <mesh name="model_collision_0" file="../object_sim/google_objects/Epson_T5803_Ink_Cartridge_Magenta_1pack/model_collision_0.obj"/>
+        <mesh name="model_collision_1" file="../object_sim/google_objects/Epson_T5803_Ink_Cartridge_Magenta_1pack/model_collision_1.obj"/>
+        <mesh name="model_collision_2" file="../object_sim/google_objects/Epson_T5803_Ink_Cartridge_Magenta_1pack/model_collision_2.obj"/>
+    </asset>
+</mujocoinclude>

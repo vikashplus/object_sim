@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<mujocoinclude>
+    <asset>
+        <texture type="2d" name="texture" file="../object_sim/google_objects/Nintendo_2DS_Crimson_Red/texture.png"/>
+        <material name="material_0" texture="texture" specular="0.29537966666666665" shininess="0.00022925499999999999"/>
+        <mesh name="model_0" file="../object_sim/google_objects/Nintendo_2DS_Crimson_Red/model_0.obj"/>
+        <mesh name="model_collision_0" file="../object_sim/google_objects/Nintendo_2DS_Crimson_Red/model_collision_0.obj"/>
+        <mesh name="model_collision_1" file="../object_sim/google_objects/Nintendo_2DS_Crimson_Red/model_collision_1.obj"/>
+        <mesh name="model_collision_2" file="../object_sim/google_objects/Nintendo_2DS_Crimson_Red/model_collision_2.obj"/>
+    </asset>
+</mujocoinclude>

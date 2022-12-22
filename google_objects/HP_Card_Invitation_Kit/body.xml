@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<mujocoinclude>
+    <geom material="material_0" mesh="model_0" type="mesh" contype="0" conaffinity="0" group="2"/>
+    <geom mesh="model_collision_0" rgba="0.08730148686581662 0.5838080858689522 0.3977514924534775 1" type="mesh" group="3"/>
+    <geom mesh="model_collision_1" rgba="0.9146608574423902 0.614481186859825 0.5225245593286709 1" type="mesh" group="3"/>
+    <geom mesh="model_collision_2" rgba="0.9381692434139915 0.2856802432583526 0.8485933962250535 1" type="mesh" group="3"/>
+</mujocoinclude>
