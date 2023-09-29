@@ -8,8 +8,8 @@
 ====================================================== -©vk©-->
     <geom name="stapler_visual" mesh="stapler" rgba="1 0 0 0.0" />
     <geom name="stapler_contact0" mesh="contact0" class="object_col"/>
-    <geom name="stapler_contact1" mesh="contact1" condim="4" rgba="0 1 1 0" />
-    <geom name="stapler_contact2" mesh="contact2" condim="4" rgba="0.8 0.8 0.8 1" />
-    <geom name="stapler_contact3" mesh="contact3" condim="4" rgba="0.2 0.2 0.2 1" />
-    <geom name="stapler_contact4" mesh="contact4" condim="4" rgba="0.2 0.2 0.2 1" />
+    <geom name="stapler_contact1" mesh="contact1" class="object_col" rgba="0 1 1 0" />
+    <geom name="stapler_contact2" mesh="contact2" class="object_col" rgba="0.8 0.8 0.8 1" />
+    <geom name="stapler_contact3" mesh="contact3" class="object_col" rgba="0.2 0.2 0.2 1" />
+    <geom name="stapler_contact4" mesh="contact4" class="object_col" rgba="0.2 0.2 0.2 1" />
 </mujocoinclude>
