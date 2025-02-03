@@ -6,7 +6,8 @@
     Details :: https://github.com/vikashplus/object_sim
     License :: Under Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 ====================================================== -©vk©-->
-    <geom name="knife_visual" mesh="knife" rgba="1 0 0 0.0" />
-    <geom name="knife_contact0" mesh="contact0" class="object_col" rgba="0.75 0.75 0.75 1" />
-    <geom name="knife_contact1" mesh="contact1" class="object_col" rgba="0.1 0.1 0.1 1" />
+    <geom name="knife_blade_visual" mesh="knife_blade" rgba="0.75 0.75 0.75 1" group="1"/>
+    <geom name="knife_handle_visual" mesh="knife_handle" rgba="0.1 0.1 0.1 1"  group="1"/>
+    <geom name="knife_contact0" mesh="contact0" condim="4" class="object_col"/>
+    <geom name="knife_contact1" mesh="contact1" condim="4" class="object_col"/>
 </mujocoinclude>

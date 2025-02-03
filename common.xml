@@ -8,7 +8,7 @@
     <default>
         <default class="grab">
             <joint limited="false" margin="0.01" armature="0.001" damping="0" frictionloss="0.001" />
-            <geom type="mesh" rgba=".8 .2 .2 1.0" contype="0" conaffinity="0"/>
+            <geom type="mesh"  rgba=".93 .99 .97 1.0"/>
             <site size="0.005 0 0" rgba="0.4 0.9 0.4 1" />
             <default class="object_col">
                 <geom type="mesh" density="1250" contype="1" conaffinity="1" friction="1 0.5 0.01" margin="0.0005" condim="4" rgba=".3 .4 .5 1" group="3"/>
@@ -17,10 +17,13 @@
     </default>
 
     <visual>
-        <global fovy="25" />
+        <!-- free camera attributes -->
+        <global fovy="10"/>
+        <headlight diffuse="0.6 0.6 0.6" ambient="0.3 0.3 0.3" specular="0 0 0"/>
     </visual>
 
-    <!-- <worldbody>
-        <geom type="plane" size="1 1 .1" pos="0 0 -.06"/>
-    </worldbody> -->
+    <worldbody>
+        <geom type="plane" size="4 4 .1" pos="0 0 -.0" rgba=".1 .1 .1 1"/>
+        <light directional="false" dir="0 1 -1" pos="0 -.3 .3" diffuse=".4 .6 .8" specular="0.3 0.3 0.3"/>
+    </worldbody>
 </mujoco>
