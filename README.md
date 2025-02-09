@@ -1,6 +1,6 @@
 # object_sim
 MuJoCo Models for objects of daily living
-(click below to preview)
+(click image below to preview the whole set in details)
 [![Video Preview](https://img.youtube.com/vi/3uxuXqnf3YA/maxresdefault.jpg)](https://youtu.be/3uxuXqnf3YA)
 
 
